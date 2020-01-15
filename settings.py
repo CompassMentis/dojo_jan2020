@@ -5,3 +5,4 @@ class Settings:
     terrain_height = 50
     terrain_colour = 0, 128, 0
     terrain_base = screen_height - terrain_height
+    centre_x = int(screen_width / 2)

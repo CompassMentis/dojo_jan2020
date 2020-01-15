@@ -32,3 +32,8 @@ class Landscape:
                 (x, Settings.screen_height - 1),
                 (x, Settings.terrain_base + self.heights[x])
             )
+
+    @property
+    def dinosaur_height(self):
+        return self.heights[Settings.centre_x] + Settings.terrain_base
+
